@@ -1,4 +1,4 @@
-## Blog Post (BP) #2 - Introduction to fastai with Bird and Forest Recognition
+## BP #2 - Introduction to fastai with Bird and Forest Recognition
 
 # First Foray into Deep Learning & AI
 ## Quick & Powerful
