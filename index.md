@@ -2,6 +2,6 @@ Hello and welcome to this blog. Edit the `index.md` file to change this content.
 
 ![Image of fast.ai logo](images/logo.png)
 
-## This is a title
+## ELEC4630 - Assignment 3 Q1 - Michael Plackowski's Blog
 
 And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
