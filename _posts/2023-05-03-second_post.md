@@ -45,6 +45,7 @@ learn = vision_learner(dls, resnet18, metrics=error_rate)
 learn.fine_tune(3)
 ```
 *Only **2** lines!*[^1]
+
 ## Using the Trained Model is Easy!
 ---
 Finally, using the trained model, other images can be input to be recognised (in this case, the two categories trained to be recognised were images of birds and forests):
