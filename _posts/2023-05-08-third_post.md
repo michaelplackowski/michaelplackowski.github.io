@@ -23,4 +23,4 @@ Lastly, the label smoothing loss function is another technique which improves th
 
 ## Use in fastai
 ---
-Within the context of fastai, users are able to choose and customize the loss function by using the *loss_func* parameter when creating a *Learner* object (fastai's API makes this relatively straightforward). A range of pre-defined loss functions for different tasks and scenarios is also provided with fastai, with the option to define custom loss functions offered as well.
+Within the context of fastai, users are able to choose and customize the loss function by using the ***loss_func*** parameter when creating a ***Learner*** object (fastai's API makes this relatively straightforward). A range of pre-defined loss functions for different tasks and scenarios is also provided with fastai, with the option to define custom loss functions offered as well.
