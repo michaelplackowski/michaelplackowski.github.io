@@ -3,7 +3,7 @@
 # First Foray into Deep Learning & AI
 ## Quick & Powerful
 ---
-Following the fastai course by Jeremy Howard, I have gone through and ran the bird and forest recognition model using the fastai library among others. DuckDuckGo was used to search for and download images for training and verification - it all worked perfectly and was quick to run. 
+Following the [fastai course](https://course.fast.ai/) by Jeremy Howard, I have gone through and ran the bird and forest recognition model using the fastai library among others. DuckDuckGo was used to search for and download images for training and verification - it all worked perfectly and was quick to run. 
 
 The code used to search for and download images may be seen below (where images that failed to download were removed):
 
