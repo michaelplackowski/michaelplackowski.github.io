@@ -5,7 +5,7 @@
 ---
 Whilst working through the fastai course, I came across the mention of multi-class loss functions. To better understand what these are and their purposes, I researched online - the following summarises the outcome of this learning.
 
-Within the context of fastai, multi-class loss functions are functions which are used to measure the difference between predicted and actual class labels in a multi-class classification problem. These loss functions are minimised during model training for the purpose of improving the accuracy of the model's predictions. The reason for using loss functions is due to them being continuous; ideally error rates would be used, however, they are non-continuous and are thus non-differentiable and so do not allow backpropagation which is required when training a deep learning model. 
+Within the context of fastai, multi-class loss functions are functions which are used to measure the difference between predicted and actual class labels in a multi-class classification problem. These loss functions are minimised during model training for the purpose of improving the accuracy of the model's predictions. The reason for using loss functions is due to them being continuous; ideally error rates would be used, however, they are non-continuous and are thus non-differentiable and so do not allow for backpropagation which is required when training a deep learning model. 
 
 There are many loss functions, with the choice of loss function(s) depending on the nature of the problem (specific characteristics of the problem and the dataset used). However, some common loss functions for multi-class classification include: 
 
