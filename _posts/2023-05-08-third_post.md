@@ -7,7 +7,11 @@ Whilst working through the fastai course, I came across the mention of multi-cla
 
 Within the context of fastai, multi-class loss functions are functions which are used to measure the difference between predicted and actual class labels in a multi-class classification problem. These loss functions are minimised during model training for the purpose of improving the accuracy of the model's predictions.
 
-There are many loss functions, with the choice of loss function(s) depending on the nature of the problem (specific characteristics of the problem and the dataset used). However, some common loss functions for multi-class classification include the cross-entropy loss function, the focal loss function, and the label smoothing loss function.
+There are many loss functions, with the choice of loss function(s) depending on the nature of the problem (specific characteristics of the problem and the dataset used). However, some common loss functions for multi-class classification include: 
+
+- cross-entropy loss function, 
+- the focal loss function, 
+- and the label smoothing loss function
 
 ## Cross-Entropy Loss Function
 ---
