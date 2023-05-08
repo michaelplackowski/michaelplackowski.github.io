@@ -57,6 +57,10 @@ print(f"Probability it's a bird: {probs[0]:.4f}") # probs[x] -> x=0:probability 
     This is a: bird
     Probability it's a bird: 1.0000
 
+Working through this first lesson has demonstrated the relative ease of being able to use available deep learning algorithms to create models for one's own purposes. The most surprising aspect about fastai was how concise it is to implement new models as noted by only needing 2 lines of Python code to create a trained model.
+
+For the purposes of the assignment, the above appears to be applicable to Q2 which asks for 10 classes of animals of my choosing to be able to be recognised using a machine learning model with t-SNE and confusion matrices used to analyse its performance.
+
 ## Footnotes
 
 [^1]: Making use of a complex neural network
