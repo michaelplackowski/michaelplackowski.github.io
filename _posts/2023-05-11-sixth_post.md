@@ -33,7 +33,7 @@ Conversely, if the two classes in a binary classification problem are balanced, 
 
 ## Perplexity
 ---
-The ***Perplexity*** parameter in t-SNE is a hyperparameter that controls the balance between preserving local and global structure in the low-dimensional embedding (see [Blog Post 4](https://michaelplackowski.github.io/2023/05/10/fourth_post.html) for more details). It is a measure of the effective number of neighbors that each data point should have in the high-dimensional space.
+The ***Perplexity*** parameter in t-SNE is a hyperparameter that controls the balance between preserving local and global structure in the low-dimensional embedding (see [***Blog Post 4***](https://michaelplackowski.github.io/2023/05/10/fourth_post.html) for more details). It is a measure of the effective number of neighbors that each data point should have in the high-dimensional space.
 
 A larger perplexity value means that each data point considers more neighbors in the high-dimensional space, resulting in the algorithm focusing more on preserving the global structure of the data. Conversely, a lower perplexity value means that each data point considers a lesser amount of neighbors, resulting in the algorithm focusing more on preserving the local structure of the data.
 
