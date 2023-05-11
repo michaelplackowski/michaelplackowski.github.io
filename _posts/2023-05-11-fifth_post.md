@@ -5,7 +5,7 @@
 ---
 ## Consulting Previous Research to Inform my own Solutions
 ---
-Since Q3 of the assignment required me to investigate different techniques and theory on creating deep learning models to classify AI generated (fake) images, I searched on Google Scholar for recent and relevant academic papers from reputable sources.
+Since Q3 of the assignment requires me to investigate different techniques and theory on creating deep learning models to classify AI generated (fake) images, I searched on Google Scholar for recent and relevant academic papers from reputable sources.
 
 The following are pdfs of these papers:
 - [**Academic Book for Detection of AI-Generated Synthetic Faces**](/pdfs/Academic-Book-for-Detection-of-AI-Generated-Synthetic-Faces-See-Pg-193-or-Chp-9-2022.pdf)
