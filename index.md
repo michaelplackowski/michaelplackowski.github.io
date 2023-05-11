@@ -5,5 +5,6 @@ I am an Electrical Engineering student at The University of Queensland undertaki
 
 ![Image of fast.ai logo](images/logo.png)
 ![The University of Queensland's Logo](images/0-uq-logo.jpg "UQ's Logo")
+
 ---
 ---
