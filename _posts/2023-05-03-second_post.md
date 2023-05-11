@@ -1,6 +1,8 @@
 ## BP #2 - Introduction to fastai with Bird and Forest Recognition
 
 # First Foray into Deep Learning & AI
+---
+---
 ## Quick & Powerful
 ---
 Following the [fastai course](https://course.fast.ai/) by Jeremy Howard, I have gone through and ran the bird and forest recognition model using the fastai library among others. DuckDuckGo was used to search for and download images for training and verification - it all worked perfectly and was quick to run. 

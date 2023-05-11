@@ -1,6 +1,8 @@
 ## BP #5 - Relevant Academic Literature
 
 # Academic Papers Related to Q3 - Detection of AI Generated Images
+---
+---
 ## Consulting Previous Research to Inform my own Solutions
 ---
 Since Q3 of the assignment required me to investigate different techniques and theory on creating deep learning models to classify AI generated (fake) images, I searched on Google Scholar for recent and relevant academic papers from reputable sources.

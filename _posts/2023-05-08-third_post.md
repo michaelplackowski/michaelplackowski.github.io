@@ -1,6 +1,8 @@
 ## BP #3 - Multi-Class Loss Functions
 
 # Minimising Loss Functions for Improved Models
+---
+---
 ## Multi-Class Loss Functions
 ---
 Whilst working through the fastai course, I came across the mention of multi-class loss functions. To better understand what these are and their purposes, I researched online - the following summarises the outcome of this learning.
