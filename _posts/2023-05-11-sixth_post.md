@@ -31,14 +31,14 @@ From initial testing, I have found that the choice between accuracy and error ra
 
 Conversely, if the two classes in a binary classification problem are balanced, then accuracy may be an appropriate metric.
 
-## Perplexity
+## Learning Rate
 ---
-The ***Perplexity*** parameter in t-SNE is a hyperparameter that controls the balance between preserving local and global structure in the low-dimensional embedding (see [**Blog Post 4**](https://michaelplackowski.github.io/2023/05/10/fourth_post.html) for more details). It is a measure of the effective number of neighbors that each data point should have in the high-dimensional space.
+The ***Learning Rate*** is a hyperparameter that determines the step size or rate at which the model's weights are updated during training. A higher learning rate can help the model converge faster but may lead to overshooting and instability, whilst a lower learning rate may help the model converge more accurately but at the expense of a longer training time. This hyperparameter is denoted as ```base_lr``` in fastai and can be changed by passing it as an argument to the ```fine_tune()``` function (although fastai has a default value for this which seems to produce good results from initial testing).
 
-A larger perplexity value means that each data point considers more neighbors in the high-dimensional space, resulting in the algorithm focusing more on preserving the global structure of the data. Conversely, a lower perplexity value means that each data point considers a lesser amount of neighbors, resulting in the algorithm focusing more on preserving the local structure of the data.
-
-As with the other hyperparameters mentioned here, perplexity choice is largely predicated on trial and error to achieve a suitable value that results in greater model performance.
-
-## Number of Iterations
+## Weight Decay
 ---
-A larger value of the ***Number of Iterations*** or ```n_iter```, can lead to a more accurate embedding at the cost of increased computational time. Typically, larger datasets or datasets with high-dimensional data require a greater value of ```n_iter``` to achieve good results.
+***Weight Decay*** is a regularization technique that adds a penalty to the loss function based on the magnitude of the model's weights. This penalty encourages the model to learn simpler weight values, which can help to prevent overfitting. Weight decay is controlled by a hyperparameter that is denoted as ```wd``` in fastai, which determines the strength of the penalty. As with ***Learning Rate***, this hyperparameter has a default value in fastai which seems to produce good results from initial testing.
+
+## Dropout
+---
+***Dropout*** is a regularization technique that randomly sets some units to zero in a neural network layer during training to prevent overfitting. Dropout is controlled by a hyperparameter that is denoted as ```ps``` in fastai, which determines the probability of dropping out a unit. A higher dropout rate means that more units will be dropped out, which can help prevent overfitting but may also make the model less accurate. This hyperparameter is another that has a default value in fastai which appears to produce reasonable results.
