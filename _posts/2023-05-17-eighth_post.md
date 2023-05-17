@@ -19,14 +19,14 @@ A visualisation of a neural network may be seen below:
 ---
 Once a NN has been formed, the output values which correpsond to the model's predictions are used in conjunction with known truth values (the values we desire the model to output) to compute a loss value (high loss values indicate the model's outputs are dissimilar to the truth values, low loss values indicate the model's outputs are close to the truth values). This is typically done using a loss function such as the ***Cross-Entropy Loss*** function, with a simpler loss function being the ***Mean-Squared Error (MSE)***. 
 
-Using the output of this loss function, the gradients of each weight for each neuron may be computed via backpropagation or gradient descent (application of the chain rule from calculus). The sign and magnitude of these gradients indicates how much each parameter should be increased or decreased to minimise the loss. For example, a negative gradient indicates that an increase in it's value would result in a decrease of the model's loss. 
+Using the output of this loss function, the gradients of each weight for each neuron may be computed via backpropagation and gradient descent (application of the chain rule from calculus). The sign and magnitude of these gradients indicates how much each parameter should be increased or decreased to minimise the loss. For example, a negative gradient indicates that an increase in it's value would result in a decrease of the model's loss. 
 
 These gradients are added to the parameter values and are typically scaled down to avoid overcorrection. This scaling factor is called the model's learning rate, and is chosen to balance the tradeoff of a small value resulting in a long time for the model to converge, and a large value potentially resulting in oscillations preventing convergence. 
 
 The overall training process of a neural network is as follows:
 1. Perform a ***forward-pass*** and compute the loss
-1. Perform a ***backward-pass*** (backpropagation/gradient descent) to compute the gradients
-1. Update the parameters as per the computed gradients
+1. Perform a ***backward-pass*** (backpropagation) to compute the gradients
+1. Update the parameters as per the computed gradients (gradient descent)
 1. Repeat Steps 1-3 until the loss is minimised
 
 A visualisation of this process may seen below:
